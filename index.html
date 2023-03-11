@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Mercedes-Benz</title>
+</head>
+
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" width="110" height="29"
+                    class="d-inline-block align-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a href="model.html" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Автомобили
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="hatchback.html">Хэтчбеки</a></li>
+                            <li><a class="dropdown-item" href="sedan.html">Седаны</a></li>
+                            <li><a class="dropdown-item" href="kupe.html">Купе</a></li>
+                            <li><a class="dropdown-item" href="jeep.html">Внедорожники</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacts.html">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="credit.html">Финансовые услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="spareparts.html">Сервис и запасные части</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="accessories.html">Аксессуары</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="e-class.html"><img src="img/1.jpeg" class="d-block w-100" alt="photo"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="s-class.html"><img src="img/2.jpeg" class="d-block w-100" alt="photo"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="glb-class.html"><img src="img/3.jpeg" class="d-block w-100" alt="photo"></a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <h1 class="heading">Популярные модели</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 19rem;">
+                    <img src="img/amg cupe.png" class="card-img-top" alt="amg cupe">
+                    <div class="card-body">
+                        <h5 class="card-title">AMG GT cupe</h5>
+                        <a href="AMG_GT_cupe.html" class="btn btn-primary btn-buy">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 19rem;">
+                    <img src="img/С.png" class="card-img-top" alt="C class">
+                    <div class="card-body">
+                        <h5 class="card-title">C-класс седан</h5>
+                        <a href="c-class.html" class="btn btn-primary btn-buy">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 19rem;">
+                    <img src="img/glc p.png" class="card-img-top" alt="glc2">
+                    <div class="card-body">
+                        <h5 class="card-title">GLC Внедорожник</h5>
+                        <a href="glc-class.html" class="btn btn-primary btn-buy">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 19rem;">
+                    <img src="img/G.png" class="card-img-top" alt="G">
+                    <div class="card-body">
+                        <h5 class="card-title">G- Внедорожник</h5>
+                        <a href="g-class.html" class="btn btn-primary btn-buy">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="card bg-dark text-white credit_car">
+        <img src="img/crefit.jpg" class="card-img" alt="credit">
+        <div class="card-img-overlay">
+            <h2 class="card-title">Пожалуй, наше лучшее предложение!</h2>
+            <h4 class="card-text"> Ваш Новый «Мерседес-Бенц» на привлекательных условиях!</h4>
+            <h2 class="card-text">Ставка по кредиту от 4,9%*</h2>
+            <a class="btn btn-primary btn-credit" href="credit.html" role="button">Узнать подробнее</a>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <a href="spareparts.html" class="link_style" style="text-decoration: none;"><div class="card" style="width: 19rem;">
+                    <img src="img/сервис.jpg" class="card-img-top" alt="photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Сервис</h5>
+                    </div>
+                </div></a>
+            </div>
+            <div class="col-sm">
+                <a href="test.html" class="link_style" style="text-decoration: none;"><div class="card" style="width: 19rem;">
+                    <img src="img/тест-драйв.jpg" class="card-img-top" alt="photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Тест-драйв</h5>
+                    </div>
+                </div></a>
+            </div>
+            <div class="col-sm">
+                <a href="credit.html" class="link_style" style="text-decoration: none;"><div class="card" style="width: 19rem;">
+                    <img src="img/финансовые услуги.jpg" class="card-img-top" alt="photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Финансовые услуги</h5>
+                    </div>
+                </div></a>
+            </div>
+            <div class="col-sm">
+                <a href="smart.html" class="link_style" style="text-decoration: none;"><div class="card" style="width: 19rem;">
+                    <img src="img/smart.jpg" class="card-img-top" alt="photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Автомобили Smart</h5>
+                    </div>
+                </div></a>
+            </div>
+            
+            <div class="card text-white credit_car">
+                <img src="img/15740546642467368-1920x650_crop.jpg" class="card-img" alt="form">
+                <div class="card-img-overlay">
+                    <h2 class="card-title">У Вас есть вопросы?</h2>
+                    <h4 class="card-text"> Оставьте заявку, и менеджер Вам перезвонит</h4>
+                    <form>
+                        <div class="adress__message">
+                            <div class="adress__message-item">
+                                <li><input class="adress__input" type="text" placeholder="Ваше имя"></li>
+                                </ul>
+                                <li><input class="adress__input" type="tel" id="phone" name="phone" placeholder="Ваш телефон"></li>
+                                </ul>
+                                <button class="adress__button" type="submit">Заказать консультацию</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="hr1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <li class="list-group-item">Мерседес-Бенц РУС</li>
+                        <li class="list-group-item">Запчасти: +7 (495) 225-00-00</li>
+                        <li class="list-group-item">Новые автомобили: +7 (495) 225-00-00</li>
+                        <li class="list-group-item">Сервис: +7 (495) 225-00-00</li>
+                        <li class="list-group-item">Автомобили с пробегом: +7 (495) 225-00-00</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <li class="list-group-item">Часы работы:</li>
+                        <li class="list-group-item">Понедельник:
+                            09:00 - 21:00</li>
+                        <li class="list-group-item">Вторник:
+                            09:00 - 21:00</li>
+                        <li class="list-group-item">Среда:
+                            09:00 - 21:00</li>
+                        <li class="list-group-item">Суббота:
+                            09:00 - 21:00</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <li class="list-group-item">Как нас найти?</li>
+                        <li class="list-group-item">Ленинградский проспект 39А</li>
+                        <li class="list-group-item">125167 Moscow</li>
+                        <li class="list-group-item">Телефон: +7 495 2250000</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr1">
+            <div class="all-rights container">
+                <p class="text">&copy; 2023 All rights reserved.</p>
+
+            </div>
+
+            <!-- Optional JavaScript; choose one of the two! -->
+
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+                crossorigin="anonymous"></script>
+
+            <!-- Option 2: Separate Popper and Bootstrap JS -->
+            <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
